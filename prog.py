@@ -1,6 +1,6 @@
-def hello():
-    for i in range(5):
+def hello(n):
+    for i in range(n):
         print("Hello Git")
 
 
-hello()
+hello(int(input()))
